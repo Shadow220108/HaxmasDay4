@@ -10,7 +10,7 @@ import {
 const app = new Hono()
 
 app.get('/', (c) => {
-  return c.text('Hello Hono!')
+  return c.text('Eureka! You are here!')
 })
 
 app.get("/api/wishes", (c) => {
